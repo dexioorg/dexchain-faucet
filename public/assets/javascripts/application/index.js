@@ -22,7 +22,7 @@ $(function() {
 			$("#receiver").val('');
 			loader.addClass("hidden");
 			swal("Success",
-			  `0.05 GoETH has been successfully transferred to <a href="https://explorer.testnet.dex.io/tx/${data.success.txHash}" target="blank">${receiver}</a>`,
+			  `5 DEX has been successfully transferred to <a href="https://explorer.testnet.dex.io/tx/${data.success.txHash}" target="blank">${receiver}</a>`,
 			  "success"
 			);
 		}).fail(function(err) {
